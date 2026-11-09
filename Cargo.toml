@@ -1,0 +1,28 @@
+[package]
+name = "drive"
+version = "0.1.0"
+edition = "2021"
+description = "Native stylized 3D driving game from OpenStreetMap data"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/JereGrelier/drive"
+homepage = "https://github.com/JereGrelier/drive"
+authors = ["Jérémy Grelier"]
+keywords = ["bevy", "game", "driving", "openstreetmap", "procedural"]
+categories = ["games"]
+
+[dependencies]
+anyhow = "1.0"
+avian3d = { version = "0.2", features = ["3d", "default"] }
+bevy = { version = "0.15", features = ["default"] }
+image = { version = "0.25.10", default-features = false, features = ["png"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+ureq = { version = "3.5.1", default-features = false, features = ["json", "rustls"] }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3

@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "spawn": true },
+      "geometry": { "type": "Point", "coordinates": [4.8357, 45.7640] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "highway": "primary", "name": "Cours Lafayette" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.8342, 45.7632],
+          [4.8350, 45.7636],
+          [4.8357, 45.7640],
+          [4.8365, 45.7644],
+          [4.8372, 45.7648]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "highway": "residential", "name": "Rue de la République" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.8350, 45.7630],
+          [4.8350, 45.7636],
+          [4.8350, 45.7642],
+          [4.8350, 45.7648]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "highway": "residential", "name": "Rue Édouard Herriot" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.8344, 45.7642],
+          [4.8350, 45.7642],
+          [4.8357, 45.7642],
+          [4.8364, 45.7642]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "highway": "secondary", "ref": "D306" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.8364, 45.7632],
+          [4.8364, 45.7638],
+          [4.8364, 45.7644],
+          [4.8364, 45.7650]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "building": "yes", "building:levels": "5", "name": "A" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8345, 45.7634], [4.8349, 45.7634], [4.8349, 45.7637], [4.8345, 45.7637], [4.8345, 45.7634]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "building": "residential", "building:levels": "3" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8352, 45.7633], [4.8357, 45.7633], [4.8357, 45.7636], [4.8352, 45.7636], [4.8352, 45.7633]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "building": "yes", "building:levels": "7" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8359, 45.7633], [4.8363, 45.7633], [4.8363, 45.7637], [4.8359, 45.7637], [4.8359, 45.7633]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "building": "yes", "building:levels": "4" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8345, 45.7639], [4.8349, 45.7639], [4.8349, 45.7643], [4.8345, 45.7643], [4.8345, 45.7639]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "building": "apartments", "building:levels": "6" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8352, 45.7644], [4.8357, 45.7644], [4.8357, 45.7648], [4.8352, 45.7648], [4.8352, 45.7644]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "building": "yes", "building:levels": "2" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8359, 45.7645], [4.8363, 45.7645], [4.8363, 45.7648], [4.8359, 45.7648], [4.8359, 45.7645]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "building": "commercial", "building:levels": "8" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8366, 45.7635], [4.8371, 45.7635], [4.8371, 45.7640], [4.8366, 45.7640], [4.8366, 45.7635]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "building": "yes", "building:levels": "3" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8366, 45.7643], [4.8370, 45.7643], [4.8370, 45.7647], [4.8366, 45.7647], [4.8366, 45.7643]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "building": "yes", "building:levels": "5" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8346, 45.7645], [4.8349, 45.7645], [4.8349, 45.7649], [4.8346, 45.7649], [4.8346, 45.7645]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "leisure": "park", "name": "Square sample" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8343, 45.7630], [4.8348, 45.7630], [4.8348, 45.7633], [4.8343, 45.7633], [4.8343, 45.7630]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "landuse": "grass" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.8366, 45.7648], [4.8372, 45.7648], [4.8372, 45.7651], [4.8366, 45.7651], [4.8366, 45.7648]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "natural": "tree" },
+      "geometry": { "type": "Point", "coordinates": [4.8353, 45.7638] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "natural": "tree", "height": "12" },
+      "geometry": { "type": "Point", "coordinates": [4.8360, 45.7640] }
+    }
+  ]
+}
